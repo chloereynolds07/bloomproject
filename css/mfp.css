@@ -1,0 +1,88 @@
+/* using margin, padding, and float */
+* {box-sizing: border-box;}
+
+:root {
+    --prim: #26292e;
+    --sec1: #e7718b;
+    --sec2: #f4f4f6;
+    --tert: #ffffff; 
+    --footer: #26292e;
+    --border-color: #fce3e7;
+    --font1: Twinkle Star; 
+}
+
+
+
+/* tag names */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* class */
+.container {
+    border: 1px solid blue;
+}
+
+/* .clear {
+    clear:both;
+} */
+
+.hs1-title {
+    font-family: var(--font1);
+    color:white;
+    /* margin-left: 150px; */
+    font-size: 40px;
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0
+}
+
+/* .li-item {
+    display: inline;
+} */
+
+.social-text {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.welcome-heading, .welcome-text {
+    color:#ffffff;
+    font-family: sans-serif;
+} 
+
+
+/* ids */
+
+#headerSection {
+    /* border: 1px solid white; */
+    background-color: var(--prim);
+    margin: 0;
+    padding: 10px 0px 10px 110px;
+}
+
+
+#socialList {
+    border: 1px solid orange;
+    float: right;
+    list-style-type: none;
+}
+
+#section1 {
+    background-color: var(--sec1);
+}
+
+#boxS1 {
+    border: 1px solid black;
+    margin: 2
+}
+
+#section2 {
+    background-color: var(--sec2);
+}
+
+#footerSection {
+    background-color: var(--footer);
+}

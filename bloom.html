@@ -4,44 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bloom</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mfp.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header" id="headerSection">
+    <!-- header -->
+    <header class="header" id="header">
         <div class="container">
+        <section class="section" id="headerSection">
             <h1 class="hs1-title">Bloom Landing Page</h1>
-            <div class="social-list">
-                <ul class="navSocial">
-                    <li class="social-text">
-                        <a href="#">Social</a>
+                <ul id="socialList" class="social-list">
+                    <li class="li-item">
+                        <a href="#" id="socialText" class="social-text">Social</a>
                     </li>
-                    <li class="social-text">
-                        <a href="#">Social</a>
+                    <li class="li-item">
+                        <a href="#" id="socialText"  class="social-text">Social</a>
                     </li>
-                    <li class="social-text">
-                        <a href="#">Social</a>
+                    <li class="li-item">
+                        <a href="#" id="socialText"  class="social-text">Social</a>
                     </li>
                 </ul>
+                <div class="clear"></div>
             </div>
-        </div>
+        </section>
     </header>
-    <main id="main">
-        <section id="section1">
+    <main class="main" id="main">
+        <section class="section" id="section1">
                 <div class="container">
-                <h2 class="welcome-header">Welcome to our Landing Page!</h2>
-                <p class="welcome-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, debitis doloribus! Odit consequatur exercitationem, excepturi officiis incidunt tenetur obcaecati dicta, labore similique non nam beatae.<p>
-                    <p class="welcome-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam non sit cum labore, beatae voluptatum!</p>
-                    <button class="btn-more">Learn More</button>
-                    <button class="btn-more">Download Now</button>
-                    <img src="/images/laptop.jpg" alt="" class="landing-image">
-                </div>
+                    <div id="boxS1">
+                        <h2 class="welcome-heading">Welcome to our Landing Page!</h2>
+                        <p class="welcome-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, debitis doloribus! Odit consequatur exercitationem, excepturi officiis incidunt tenetur obcaecati dicta, labore similique non nam beatae.<p>
+                            <p class="welcome-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam non sit cum labore, beatae voluptatum!</p>
+                            <div class="btn">
+                                <button class="btn-more">Learn More</button>
+                                <button class="btn-more">Download Now</button>
+                                <img src="/images/laptop.jpg" alt="" class="computer-image">
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
             </section>
-            <section id="section2">
-                <div class="container">
-                <div class="row1" id="rowS2">
+
+            <section class="section" id="section2">
+                    <div class="container">
+                    <div class="row1" id="rowS2">
                     <h3 id="welcome2Heading">Lorem, ipsum dolor.</h3>
                     <p class="header3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusantium consequatur ea adipisci expedita quis rerum voluptatum maxime ratione nulla.</p>
                     <p class="lower-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, aut.</p>
@@ -51,21 +59,24 @@
                     <p class="header3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusantium consequatur ea adipisci expedita quis rerum voluptatum maxime ratione nulla.</p>
                     <p class="lower-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, aut.</p>
                 </div>
+            
                 <div class="row3" id="rowS2">
                     <h3 id="welcome2Heading">Lorem, ipsum dolor.</h3>
                     <p class="header3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusantium consequatur ea adipisci expedita quis rerum voluptatum maxime ratione nulla.</p>
                     <p class="lower-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, aut.</p>
                 </div>
             </div>
-            </section>
-            <section id="section3">
-                <div class="container">
-                    <h3 class="hd3-s3">Checkout our Products!</h3>
-                    <div class="block"></div>
-                    <div class="block"></div>
-                    <div class="block"></div>
-                    <div class="block"></div>
+        </section>
 
+            <section class="section" id="section3">
+                <div class="container">
+                    <div id="box1">
+                        <h3 class="hd3-s3">Checkout our Products!</h3>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
                 <div class="block2">
                     <h3 class="client-header">What our clients are saying...</h3>
                     <ul>
@@ -77,6 +88,7 @@
                 </div>
         </section>
     </main>
+    <!-- footer -->
     <section class="footer-section" id="footerSection">
         <div class="container">
             <footer class="footer" id="footer">

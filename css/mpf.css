@@ -8,10 +8,110 @@
     --footer: #26292e;
     --border-color: #fce3e7;
     --font1: Twinkle Star; 
+    --btn: #3f3f3f;  
 }
 
 /* tags */
 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
 /* classes */
 
+.container {
+    border: 1px solid gold;
+}
+
+.clear {
+    clear:both;
+}
+
+.heading {
+    font-family: var(--font1);
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.li-item {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.welcome-heading, .welcome-text {
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.welcome-heading {
+    border: 1px solid red;
+    margin: 70px 7%;
+    font-size: 30px;
+}
+
+.welcome-text {
+    padding: 15px;
+}
+
+.btn-more {
+    background-color: var(--btn);
+    border-top: 1px solid gray;
+    font-family: sans-serif;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10%;
+}
+
 /* ids */
+
+#header {
+    background-color: var(--prim);
+    padding: 20px;
+}
+
+#navList {
+    margin-right: 15%;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+#socialText {
+    float: right;
+    text-decoration: none;
+    margin: 0;
+    padding: 12px;
+    color: #ffffff;
+    border: 1px solid red;
+}
+
+#imageBox {
+    float: right;
+    border: 1px solid white;
+    margin: 0 30%;
+}
+
+#welcomeSection {
+    background-color: var(--sec1);
+    margin: 0 auto;
+    padding: 0;
+}
+
+#welcomeBox {
+    border: 1px solid blue;
+    width: 60%;
+}
+
+#welcomeList {
+    border: 1px solid red;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+#block-btn {
+    border: 1px solid white;
+    margin: 10px 5%;
+}

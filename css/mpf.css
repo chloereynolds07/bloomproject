@@ -13,10 +13,13 @@
 
 /* tags */
 
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 
@@ -30,88 +33,78 @@ body {
     clear:both;
 }
 
-.heading {
-    font-family: var(--font1);
-    color:#ffffff;
-    font-size: 30px;
-    font-weight: lighter;
+.section {
+    padding: 20px 0;
+    width: 100%;
 }
 
-.li-item {
-    text-decoration: none;
-    color: #ffffff;
+.heading {
+    font-family: var(--font1);
+    color: #fff;
+    font-size: 35px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
 }
 
 .welcome-heading, .welcome-text {
-    color: #ffffff;
+    font-family: sans-serif;
+    color: #fff;
+    padding: 10px;
+}
+
+.row-text {
+    color: #999;
     font-family: sans-serif;
 }
 
-.welcome-heading {
-    border: 1px solid red;
-    margin: 70px 7%;
-    font-size: 30px;
-}
-
-.welcome-text {
-    padding: 15px;
-}
-
-.btn-more {
-    background-color: var(--btn);
-    border-top: 1px solid gray;
-    font-family: sans-serif;
-    color: #ffffff;
-    padding: 15px;
-    border-radius: 10%;
-}
 
 /* ids */
 
-#header {
+#headerSection {
     background-color: var(--prim);
-    padding: 20px;
 }
 
-#navList {
-    margin-right: 15%;
-    list-style-type: none;
-    margin-top: 0;
-}
-
-#socialText {
+#topNav {
     float: right;
-    text-decoration: none;
-    margin: 0;
-    padding: 12px;
-    color: #ffffff;
-    border: 1px solid red;
-}
-
-#imageBox {
-    float: right;
-    border: 1px solid white;
-    margin: 0 30%;
+    padding: 0;
+    margin: 0 20px;
+    border: 1px solid purple;
 }
 
 #welcomeSection {
     background-color: var(--sec1);
-    margin: 0 auto;
-    padding: 0;
 }
 
-#welcomeBox {
-    border: 1px solid blue;
-    width: 60%;
+#rowSection {
+    background-color: var(--sec2);
 }
 
-#welcomeList {
+#rowWelcome {
     border: 1px solid red;
-    list-style-type: none;
-    margin: 0 auto;
+    width: 40%;
+    margin-left: 50px;
 }
 
-#block-btn {
-    border: 1px solid white;
-    margin: 10px 5%;
+#imageBox {
+    border: 1px solid blue;
+    float: right;
+    margin: -15% 15% 30px;
+}
+
+#rowS2 {
+    float: right;
+    margin: 20px;
+    width: 30%;
+    padding: 0 5px;
+}
+
+#rowHeading {
+    font-size: 20px;
+    color: #333;
+    font-family: sans-serif;
+}
+
+#footer {
+    background-color: var(--footer);
 }

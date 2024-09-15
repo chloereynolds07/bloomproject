@@ -77,6 +77,32 @@ body {
     font-family: sans-serif;
 }
 
+.product-text {
+    font-family: sans-serif;
+    color: #444;
+}
+
+
+.client-header {
+    font-family: sans-serif;
+    color: #333;
+    padding: 10px;
+}
+
+.clients-text {
+    font-family: sans-serif;
+    list-style-type: none;
+    color: #aaa;
+    padding: 10px;
+
+}
+
+.fs-text {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 12px;
+}
+
 
 /* ids */
 
@@ -135,6 +161,43 @@ body {
     font-family: sans-serif;
 }
 
+#rowProducts {
+    border: 1px solid green;
+    margin: 20px;
+}
+
+#box1S3 {
+    border: 1px solid red;
+    margin: 0;
+}
+
+#block {
+    background-color: #444;
+    border: 13px solid #c4cbdd;
+    padding: 100px;
+    margin: 50px;
+    width: 30%;
+}
+
+
+#cilentBox {
+    float: right;
+    border: 1px solid blue;
+    width: 30%;
+    margin: -100px 30px 100;
+}
+
+#pinkDiv {
+    border: 5px solid var(--border-color);
+    margin: 0;
+    padding: 0;
+}
+
 #footer {
     background-color: var(--footer);
+}
+
+#footerRow {
+    margin: 0 20px;
+    padding: 10px;
 }
